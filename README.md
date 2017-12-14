@@ -1,1 +1,1 @@
-# Swarm-Intelligence-in-Bioinformatics
+# Swarm Intelligence in Bioinformatics
