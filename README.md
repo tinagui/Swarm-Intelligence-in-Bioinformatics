@@ -1,6 +1,7 @@
 # ❀ Swarm Intelligence in Bioinformatics ❀
 
+### Particle Swarm Optimization (PSO)
 
-### Literature Review
-Review on the Usage of Swarm Intelligence in Gene Expression Data <br>
-https://link.springer.com/chapter/10.1007/978-981-10-7554-4_27
+### Artificial Bee Colony (ABC)
+
+### Ant Colony Optimization (ACO)
