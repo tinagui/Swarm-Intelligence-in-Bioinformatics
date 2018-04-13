@@ -1,11 +1,18 @@
 # ❀ Swarm Intelligence in Bioinformatics ❀
 
 ### Particle Swarm Optimization (PSO)
+```
+Algorithm 1: Particle Swarm Optimization
 
-
-### Artificial Bee Colony (ABC)
+```
 
 ### Ant Colony Optimization (ACO)
+```
+Algorithm 2: Ant Colony Optimization
+
+```
+
+### Artificial Bee Colony (ABC)
 Artificial Bee Colony was first proposed by Karaboga in 2005. It is an optimization algorithm inspired by the intelligent foraging behavior of a honey bee swarm for finding an optimal solution. Three essential components of forage selection are:
 1)	food sources: places with a high amount of nectar 
 2)	employed foragers: employed bees exploit the food source, calculate the nector amount, and carry the optimal path information back to hive.
