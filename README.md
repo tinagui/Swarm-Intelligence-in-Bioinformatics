@@ -15,22 +15,22 @@ Comparing Artificial Bee Colony algorithm with Particle Swarm Optimization and A
 Algorithm 3: Artificial Bee Colony
 1:	Initialize food sources
 2:	while termination criteria is not met do
-3:	for each employed bee
-4:	Produce new solution
-5:	Calculate the fitness value
-6:	Apply greedy selection 
-7:	Calculate the probability value
-8:	end
-9:	for each onlooker bee
-10:	Select a solution 
-11:	Produce new solution
-12:	Calculate the fitness value
-13:	Apply greedy selection 
-14:	end
-15:	if an abandoned solution for the scout exists then
-16:	Replace it with a new solution at random
-17:	end
-18:	Register the best solution
+3:	  for each employed bee
+4:	    Produce new solution
+5:	    Calculate the fitness value
+6:	    Apply greedy selection 
+7:	    Calculate the probability value
+8:	  end
+9:	  for each onlooker bee
+10:	    Select a solution 
+11:	    Produce new solution
+12:	    Calculate the fitness value
+13:	    Apply greedy selection 
+14:	  end
+15:	  if an abandoned solution for the scout exists then
+16:	    Replace it with a new solution at random
+17:	  end
+18:	  Register the best solution
 19:	end
 ```
 
