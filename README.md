@@ -16,8 +16,8 @@ Algorithm 2: Ant Colony Optimization
 Artificial Bee Colony was first proposed by Karaboga in 2005. It is an optimization algorithm inspired by the intelligent foraging behavior of a honey bee swarm for finding an optimal solution. Three essential components of forage selection are:
 1)	food sources: places with a high amount of nectar 
 2)	employed foragers: employed bees exploit the food source, calculate the nector amount, and carry the optimal path information back to hive.
-3)	unemployed foragers: unemployed bees consist of two groups of bees – onlookers and scouts. Onlookers wait in the hive for the information that is shared by the employed bees. Scout bees are translated from employed bees and always continues seeking new food sources near the hive.   
-<br>
+3)	unemployed foragers: unemployed bees consist of two groups of bees – onlookers and scouts. Onlookers wait in the hive for the information that is shared by the employed bees. Scout bees are translated from employed bees and always continues seeking new food sources near the hive. <br>
+
 Comparing Artificial Bee Colony algorithm with Particle Swarm Optimization and Ant Colony Optimization methods, it carries the advantages of fast convergence, high flexibility, and strong robustness. The mechanism of ABC is provided in Algorithm 3.
 ```
 Algorithm 3: Artificial Bee Colony
@@ -50,8 +50,8 @@ Spider Monkey Optimization is inspired by fission-fusion social foraging behavio
 3)	Local Leader Learning phase (LLL)
 4)	Global Leader Learning phase (GLL)
 5)	Local Leader Decision phase (LLD)
-6)	Global Leader Decision phase (GLD)
-<br>
+6)	Global Leader Decision phase (GLD)<br>
+
 The pseudo code of SMO algorithm can be found below,
 ```
 Algorithm 4: Spider Monkey Optimization
