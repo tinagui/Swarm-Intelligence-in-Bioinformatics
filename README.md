@@ -43,7 +43,14 @@ Algorithm 3: Artificial Bee Colony
 
 
 ### Spider Monkey Optimization (SMO) 
-Spider Monkey Optimization is inspired by fission-fusion social foraging behavior of Spider Monkeys. It can be applied in various areas such as remote sensing image classification, wireless protocol design, and electromagnetics and antenna optimization. The SMO algorithm follows the properties of self-organization and division of labor for obtainning intelligent swarming behaviors. Spider monkeys determine their positions by learning from self experience, local leaders and a global leader. It provides positive feedback of self-organization. Members of each group are spread to multiple directions for seeking a food source. If the global leader gets trapped, the group will divide into smaller subgroups and continue repeating the previous steps. Local and global leaders’ update their decisions according to negative feedback from the local leader limit and global leader limit. This process is known as a division of labor property. The SMO algorithm consists of 6 phases [11]: Local Leader phase (LLP), Global Leader phase (GLP), Local Leader Learning phase (LLL), Global Leader Learning phase (GLL), Local Leader Decision phase (LLD), and Global Leader Decision phase (GLD). The pseudo code of SMO algorithm can be found below,
+Spider Monkey Optimization is inspired by fission-fusion social foraging behavior of Spider Monkeys. It can be applied in various areas such as remote sensing image classification, wireless protocol design, and electromagnetics and antenna optimization. The SMO algorithm follows the properties of self-organization and division of labor for obtainning intelligent swarming behaviors. Spider monkeys determine their positions by learning from self experience, local leaders and a global leader. It provides positive feedback of self-organization. Members of each group are spread to multiple directions for seeking a food source. If the global leader gets trapped, the group will divide into smaller subgroups and continue repeating the previous steps. Local and global leaders’ update their decisions according to negative feedback from the local leader limit and global leader limit. This process is known as a division of labor property. The SMO algorithm consists of 6 phases:
+1)	Local Leader phase (LLP)
+2)	Global Leader phase (GLP)
+3)	Local Leader Learning phase (LLL)
+4)	Global Leader Learning phase (GLL)
+5)	Local Leader Decision phase (LLD)
+6)	Global Leader Decision phase (GLD)
+The pseudo code of SMO algorithm can be found below,
 ```
 Algorithm 4: Spider Monkey Optimization
 1:	Initialize Population, Perturbation rate, local and global leaders, LocalLeaderLimit, GlobalLeaderLimit,
