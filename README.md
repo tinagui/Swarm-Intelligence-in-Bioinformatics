@@ -41,3 +41,31 @@ Algorithm 3: Artificial Bee Colony
 19:	end
 ```
 
+
+### Spider Monkey Optimization (SMO) 
+Spider Monkey Optimization is inspired by fission-fusion social foraging behavior of Spider Monkeys. It can be applied in various areas such as remote sensing image classification [36], wireless protocol design [37], and electromagnetics and antenna optimization [38]. The SMO algorithm follows the properties of self-organization and division of labor for obtainning intelligent swarming behaviors [4]. Spider monkeys determine their positions by learning from self experience, local leaders and a global leader. It provides positive feedback of self-organization. Members of each group are spread to multiple directions for seeking a food source. If the global leader gets trapped, the group will divide into smaller subgroups and continue repeating the previous steps. Local and global leaders’ update their decisions according to negative feedback from the local leader limit and global leader limit. This process is known as a division of labor property. The SMO algorithm consists of 6 phases [11]: Local Leader phase (LLP), Global Leader phase (GLP), Local Leader Learning phase (LLL), Global Leader Learning phase (GLL), Local Leader Decision phase (LLD), and Global Leader Decision phase (GLD),
+〖SMnew〗_ij= 〖SM〗_ij+U(0,1)  × (〖LL〗_kj-〖SM〗_ij )
++U(-1,1)  × (〖SM〗_rj-〖SM〗_ij) 	    (6)
+〖SMnew〗_ij= 〖SM〗_ij+U(0,1)  × (〖GL〗_j-〖SM〗_ij )
++U(-1,1)  × (〖SM〗_rj-〖SM〗_ij) 	    (7)
+〖SMnew〗_ij= 〖SM〗_ij+U(0,1)  × (〖GL〗_j-〖SM〗_ij )
++U(0,1)  × (〖SM〗_ij-〖LL〗_kj) 	    (8)
+where 〖SM〗_ij and 〖SM〗_rj are the i^(th) and r^(th) spider monkeys in the j^(th) dimension; 〖LL〗_kj and 〖GL〗_j indicate the k^(th) local learder position within the group and the global leader position in the j^(th) dimension, accordingly. The pseudo code of SMO algorithm can be found below [39],
+```
+Algorithm 4: Spider Monkey Optimization
+1:	Initialize Population, Perturbation rate, local and global leaders, LocalLeaderLimit, GlobalLeaderLimit,
+2:	Determine fitness values
+3:	Apply greedy selection to choose local and global leader
+4:	while termination criteria is not met do
+5:	  Formulate new locations for each spider monkey with self, local, and global experience.
+6:	  Employ greedy selection strategy
+7:	  Generate new locations according to fitness values
+8:	  if #LocalLeaderModification  < LocalLeaderLimit
+9:	    Update local leader position 
+10:	  end
+11:	  if #GlobalLeaderModification < GlobalLeaderLimit
+12:	    Divide the group into subgroups
+13: 	  Repeat the steps above
+14:	  end
+15:	end
+```
