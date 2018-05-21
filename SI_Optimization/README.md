@@ -1,4 +1,4 @@
-## Swarm Intelligence in Bioinformatics
+## Swarm Intelligence in Bioinformatics (MATLAB Code)
 Author: Tina Gui <br>
 Developed in MATLAB R2016a <br>
 
