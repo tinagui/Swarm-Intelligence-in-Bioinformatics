@@ -1,18 +1,18 @@
 # ❀ Swarm Intelligence in Bioinformatics ❀
 
-### Particle Swarm Optimization (PSO)
+### •● Particle Swarm Optimization (PSO)
 ```
 Algorithm 1: Particle Swarm Optimization
 
 ```
 
-### Ant Colony Optimization (ACO)
+### •● Ant Colony Optimization (ACO)
 ```
 Algorithm 2: Ant Colony Optimization
 
 ```
 
-### Artificial Bee Colony (ABC)
+### •● Artificial Bee Colony (ABC)
 Artificial Bee Colony was first proposed by Karaboga in 2005. It is an optimization algorithm inspired by the intelligent foraging behavior of a honey bee swarm for finding an optimal solution. Three essential components of forage selection are:
 1)	food sources: places with a high amount of nectar 
 2)	employed foragers: employed bees exploit the food source, calculate the nector amount, and carry the optimal path information back to hive.
@@ -41,9 +41,20 @@ Algorithm 3: Artificial Bee Colony
 18:	  Register the best solution
 19:	end
 ```
+ 
+### •● Grey Wolf Optimization Algorithm (GWO)
+Reference: Grey Wolf Optimizer, Advances in Engineering Software, Volume 69, March 2014, Pages 46-61, DOI: http://dx.doi.org/10.1016/j.advengsoft.2013.12.007 
+<br><br>
 
+### •● Whale Optimization Algorithm (WOA)
+Reference: The Whale Optimization Algorithm, Advances in Engineering Software, in press, 2016. DOI: http://dx.doi.org/10.1016/j.advengsoft.2016.01.008 
+<br><br>
 
-### Spider Monkey Optimization (SMO) 
+### •● Social Spider Optimization (SSO)
+Reference: E. Cuevas et al. Swarm optimization algorithm inspired in the behavior of the social-spider, Expert Systems with Applications, 40 (16), (2013), pp. 6374-6384. DOI: http://arxiv.org/abs/1406.3282
+<br><br>
+
+### •● Spider Monkey Optimization (SMO) 
 Spider Monkey Optimization is inspired by fission-fusion social foraging behavior of Spider Monkeys. It can be applied in various areas such as remote sensing image classification, wireless protocol design, and electromagnetics and antenna optimization. The SMO algorithm follows the properties of self-organization and division of labor for obtainning intelligent swarming behaviors. Spider monkeys determine their positions by learning from self experience, local leaders and a global leader. It provides positive feedback of self-organization. Members of each group are spread to multiple directions for seeking a food source. If the global leader gets trapped, the group will divide into smaller subgroups and continue repeating the previous steps. Local and global leaders’ update their decisions according to negative feedback from the local leader limit and global leader limit. This process is known as a division of labor property. The SMO algorithm consists of 6 phases:
 1)	Local Leader phase (LLP)
 2)	Global Leader phase (GLP)
