@@ -5,19 +5,20 @@
 Algorithm 1: Particle Swarm Optimization
 
 ```
+<br><br>
 
 ### •● Ant Colony Optimization (ACO)
 ```
 Algorithm 2: Ant Colony Optimization
 
 ```
+<br><br>
 
 ### •● Artificial Bee Colony (ABC)
 Artificial Bee Colony was first proposed by Karaboga in 2005. It is an optimization algorithm inspired by the intelligent foraging behavior of a honey bee swarm for finding an optimal solution. Three essential components of forage selection are:
 1)	food sources: places with a high amount of nectar 
 2)	employed foragers: employed bees exploit the food source, calculate the nector amount, and carry the optimal path information back to hive.
 3)	unemployed foragers: unemployed bees consist of two groups of bees – onlookers and scouts. Onlookers wait in the hive for the information that is shared by the employed bees. Scout bees are translated from employed bees and always continues seeking new food sources near the hive. <br>
-
 Comparing Artificial Bee Colony algorithm with Particle Swarm Optimization and Ant Colony Optimization methods, it carries the advantages of fast convergence, high flexibility, and strong robustness. 
 ```
 Algorithm 3: Artificial Bee Colony
@@ -41,7 +42,8 @@ Algorithm 3: Artificial Bee Colony
 18:	  Register the best solution
 19:	end
 ```
- 
+<br><br>
+
 ### •● Grey Wolf Optimization Algorithm (GWO)
 Reference: Grey Wolf Optimizer, Advances in Engineering Software, Volume 69, March 2014, Pages 46-61, DOI: http://dx.doi.org/10.1016/j.advengsoft.2013.12.007 
 ```
@@ -92,3 +94,4 @@ Algorithm 7: Spider Monkey Optimization
 13:  Register the best solution
 14: end	  
 ```
+<br><br>
