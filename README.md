@@ -18,7 +18,7 @@ Artificial Bee Colony was first proposed by Karaboga in 2005. It is an optimizat
 2)	employed foragers: employed bees exploit the food source, calculate the nector amount, and carry the optimal path information back to hive.
 3)	unemployed foragers: unemployed bees consist of two groups of bees – onlookers and scouts. Onlookers wait in the hive for the information that is shared by the employed bees. Scout bees are translated from employed bees and always continues seeking new food sources near the hive. <br>
 
-Comparing Artificial Bee Colony algorithm with Particle Swarm Optimization and Ant Colony Optimization methods, it carries the advantages of fast convergence, high flexibility, and strong robustness. The mechanism of ABC is provided in Algorithm 3.
+Comparing Artificial Bee Colony algorithm with Particle Swarm Optimization and Ant Colony Optimization methods, it carries the advantages of fast convergence, high flexibility, and strong robustness. 
 ```
 Algorithm 3: Artificial Bee Colony
 1:	Initialize food sources
@@ -44,14 +44,26 @@ Algorithm 3: Artificial Bee Colony
  
 ### •● Grey Wolf Optimization Algorithm (GWO)
 Reference: Grey Wolf Optimizer, Advances in Engineering Software, Volume 69, March 2014, Pages 46-61, DOI: http://dx.doi.org/10.1016/j.advengsoft.2013.12.007 
+```
+Algorithm 4: Grey Wolf Optimization Algorithm
+
+```
 <br><br>
 
 ### •● Whale Optimization Algorithm (WOA)
 Reference: The Whale Optimization Algorithm, Advances in Engineering Software, in press, 2016. DOI: http://dx.doi.org/10.1016/j.advengsoft.2016.01.008 
+```
+Algorithm 5: Whale Optimization Algorithm
+
+```
 <br><br>
 
 ### •● Social Spider Optimization (SSO)
 Reference: E. Cuevas et al. Swarm optimization algorithm inspired in the behavior of the social-spider, Expert Systems with Applications, 40 (16), (2013), pp. 6374-6384. DOI: http://arxiv.org/abs/1406.3282
+```
+Algorithm 6: Social Spider Optimization
+
+```
 <br><br>
 
 ### •● Spider Monkey Optimization (SMO) 
@@ -63,9 +75,8 @@ Spider Monkey Optimization is inspired by fission-fusion social foraging behavio
 5)	Local Leader Decision phase (LLD)
 6)	Global Leader Decision phase (GLD)<br>
 
-The pseudo code of SMO algorithm can be found below,
 ```
-Algorithm 4: Spider Monkey Optimization
+Algorithm 7: Spider Monkey Optimization
 1:	Initialize Population, Perturbation rate
 2:	Apply greedy selection to choose local leader
 3:	while termination criteria is not met do
