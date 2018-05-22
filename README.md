@@ -66,10 +66,10 @@ Spider Monkey Optimization is inspired by fission-fusion social foraging behavio
 The pseudo code of SMO algorithm can be found below,
 ```
 Algorithm 4: Spider Monkey Optimization
-1:	Initialize Population, Perturbation rate, local and global leaders, LocalLeaderLimit, GlobalLeaderLimit,
-2:	Determine fitness values
-3:	Apply greedy selection to choose local and global leader
-4:	while termination criteria is not met do
+1:	Initialize Population, Perturbation rate
+2:	Apply greedy selection to choose local leader
+3:	while termination criteria is not met do
+4:	
 5:	  Formulate new locations for each spider monkey with self, local, and global experience.
 6:	  Employ greedy selection strategy
 7:	  Generate new locations according to fitness values
