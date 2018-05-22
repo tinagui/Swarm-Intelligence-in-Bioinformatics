@@ -69,16 +69,15 @@ Algorithm 4: Spider Monkey Optimization
 1:	Initialize Population, Perturbation rate
 2:	Apply greedy selection to choose local leader
 3:	while termination criteria is not met do
-4:	
-5:	  Formulate new locations for each spider monkey with self, local, and global experience.
-6:	  Employ greedy selection strategy
+4:	  Calculate objective function for each search agent
+5:	  Formulate new locations for each search agent
+6:	  Update the leader position
 7:	  Generate new locations according to fitness values
-8:	  if #LocalLeaderModification  < LocalLeaderLimit
-9:	    Update local leader position 
-10:	  end
-11:	  if #GlobalLeaderModification < GlobalLeaderLimit
-12:	    Divide the group into subgroups
-13: 	  Repeat the steps above
-14:	  end
-15:	end
+8:	  if (0,1) > perturbation rate
+9:	    Calculate the new position according to eq. 1
+10:	 else if (0,1) <= perturbation rate
+11:	   Calculte the new postion according to eq. 2
+12:	 end  
+13:  Register the best solution
+14: end	  
 ```
