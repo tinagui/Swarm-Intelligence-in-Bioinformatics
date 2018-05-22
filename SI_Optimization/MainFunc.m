@@ -63,14 +63,12 @@ switch(f)
 end
 GWO2(swarm_no,max_iter,lb_no,ub_no,dim,CostFunction);
 WOA2(swarm_no,max_iter,lb_no,ub_no,dim,CostFunction);
-SSO2(swarm_no,max_iter,lb_no,ub_no,dim,CostFunction);
 MOA2(swarm_no,max_iter,lb_no,ub_no,dim,CostFunction);
 hold on;
 
 % Display legend (optional)
-h = zeros(4, 1);
+h = zeros(3, 1);
 h(1) = plot(NaN,NaN,':k','LineWidth', 2); % GWO
 h(2) = plot(NaN,NaN,'--b','LineWidth', 1.5); % WOA
-h(3) = plot(NaN,NaN,'-.r','LineWidth', 1.5);  % SSO
-h(4) = plot(NaN,NaN,'-m','LineWidth', 1.5);  % MOA
-legend(h, 'GWO','WOA','SSO', 'MOA');
+h(3) = plot(NaN,NaN,'-m','LineWidth', 1.5);  % MOA
+legend(h, 'GWO', 'WOA', 'MOA');
