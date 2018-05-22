@@ -10,10 +10,6 @@ Reference: Grey Wolf Optimizer, Advances in Engineering Software, Volume 69, Mar
 Reference: The Whale Optimization Algorithm, Advances in Engineering Software, in press, 2016. DOI: http://dx.doi.org/10.1016/j.advengsoft.2016.01.008 
 <br><br>
 
-#### •● Social Spider Optimization (SSO)
-Reference: E. Cuevas et al. Swarm optimization algorithm inspired in the behavior of the social-spider, Expert Systems with Applications, 40 (16), (2013), pp. 6374-6384. DOI: http://arxiv.org/abs/1406.3282
-<br><br>
-
 #### •● Monkey Optimization Algorithm (MOA)
 <br><br>
 
