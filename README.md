@@ -1,6 +1,13 @@
 # ❀ Swarm Intelligence in Bioinformatics ❀
 #### Table of Content
-- [Particle Swarm Optimization](#•●-Particle-Swarm-Optimization-(PSO))
+- [Particle Swarm Optimization](#-particle-swarm-optimization-pso)
+- [Ant Colony Optimization](#-ant-colony-optimization-aco)
+- [Artificial Bee Colony](#-artificial-bee-colony-abc)
+- [Grey Wolf Optimization](#-particle-swarm-optimization-pso)
+- [Whale Optimization Algorithm](#-particle-swarm-optimization-pso)
+- [Social Spider Optimization](#-particle-swarm-optimization-pso)
+- [Spider Monkey Optimization](#-particle-swarm-optimization-pso)
+
 
 #### •● Particle Swarm Optimization (PSO)
 ```
@@ -46,7 +53,7 @@ Algorithm 3: Artificial Bee Colony
 ```
 <br><br>
 
-#### •● Grey Wolf Optimization Algorithm (GWO)
+#### •● Grey Wolf Optimization (GWO)
 Reference: Grey Wolf Optimizer, Advances in Engineering Software, Volume 69, March 2014, Pages 46-61, DOI: http://dx.doi.org/10.1016/j.advengsoft.2013.12.007 
 ```
 Algorithm 4: Grey Wolf Optimization Algorithm
