@@ -1,8 +1,8 @@
 # ❀ Swarm Intelligence in Bioinformatics ❀
-#### Content
-[create an anchor](#anchors-in-markdown)
+#### Table of Content
+- [Particle Swarm Optimization](# •● Particle Swarm Optimization (PSO))
 
-#### •● Particle Swarm Optimization (PSO)
+####
 ```
 Algorithm 1: Particle Swarm Optimization
 
