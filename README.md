@@ -1,12 +1,12 @@
 # ❀ Swarm Intelligence in Bioinformatics ❀
-#### Table of Content
+#### •● Table of Content
 - [Particle Swarm Optimization](#-particle-swarm-optimization-pso)
 - [Ant Colony Optimization](#-ant-colony-optimization-aco)
 - [Artificial Bee Colony](#-artificial-bee-colony-abc)
-- [Grey Wolf Optimization](#-particle-swarm-optimization-pso)
-- [Whale Optimization Algorithm](#-particle-swarm-optimization-pso)
-- [Social Spider Optimization](#-particle-swarm-optimization-pso)
-- [Spider Monkey Optimization](#-particle-swarm-optimization-pso)
+- [Grey Wolf Optimization](#-grey-wolf-optimization-gwo)
+- [Whale Optimization Algorithm](#-whale-optimization-algorithm-woa)
+- [Social Spider Optimization](#-social-spider-optimization-sso)
+- [Spider Monkey Optimization](#-spider-monkey-optimization-smo)
 
 
 #### •● Particle Swarm Optimization (PSO)
