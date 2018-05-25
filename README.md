@@ -93,6 +93,7 @@ Algorithm 7: Spider Monkey Optimization
 <br><br>
 
 #### •● Moth Search Algorithm (MSA)
+Reference: G. Wang. "Moth search algorithm: a bio-inspired metaheuristic algorithm for global optimization problems." Memetic Computing (2016): 1-14. 
 ```
 Algorithm 8: Moth Search Algorithm 
 
@@ -101,6 +102,7 @@ Algorithm 8: Moth Search Algorithm
 
 
 #### •● Monarch Butterfly Optimization (MBO)
+Reference: G. Wang, X. Zhao, and S. Deb. "A novel monarch butterfly optimization with greedy strategy and self-adaptive." In Soft Computing and Machine Intelligence (ISCMI), 2015 Second International Conference on, pp. 45-50. IEEE, 2015.
 ```
 Algorithm 9: Monarch Butterfly Optimization
 
