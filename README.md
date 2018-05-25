@@ -91,3 +91,20 @@ Algorithm 7: Spider Monkey Optimization
 
 ```
 <br><br>
+
+#### •● Moth Search Algorithm (MSA)
+```
+Algorithm 8: Moth Search Algorithm 
+
+```
+<br><br>
+
+
+#### •● Monarch Butterfly Optimization (MBO)
+```
+Algorithm 9: Monarch Butterfly Optimization
+
+```
+<br><br>
+
+
