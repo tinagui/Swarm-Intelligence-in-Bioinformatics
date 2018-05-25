@@ -14,5 +14,5 @@ Developed in MATLAB R2016a <br>
 <br><br>
 
 <br><br>
-#### Under review/Submitted
+#### Under review
 T. Gui, D.E. Wilkins, C. Ma, and Y. Chen. A Survey on Swarm Intelligence based Feature Selection in Microarray Data (IEEE TEVC)
