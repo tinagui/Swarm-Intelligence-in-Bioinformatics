@@ -6,7 +6,19 @@ In gene expression analysis and classification, feature selection is an importan
 <br>
 <br>
 <br>
+### Recent Development and Applications in Swarm Intelligence
+Authors: Tina Gui, Christopher Ma, Dawn E. Wilkins, Yixin Chen and Feng Wang <br>
+Status: in progress <br>
+#### Abstract <br>
+<br>
+<br>
+<br>
 
 ### Swarm Intelligence based Biclustering Analysis on Lung Cancer in Taiwan
 Authors: Tina Gui, Tzu-Pin Lu, Dawn E. Wilkins, and Eric Y. Chuang <br>
 Status: in progress <br>
+#### Abstract <br>
+<br>
+<br>
+<br>
+
