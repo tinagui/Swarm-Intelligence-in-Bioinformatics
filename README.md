@@ -1,14 +1,16 @@
 # ❀ Swarm Intelligence in Bioinformatics ❀
 #### •● Table of Content
-- [Particle Swarm Optimization](#-particle-swarm-optimization-pso)
-- [Ant Colony Optimization](#-ant-colony-optimization-aco)
-- [Artificial Bee Colony](#-artificial-bee-colony-abc)
-- [Grey Wolf Optimization](#-grey-wolf-optimization-gwo)
-- [Whale Optimization Algorithm](#-whale-optimization-algorithm-woa)
-- [Social Spider Optimization](#-social-spider-optimization-sso)
-- [Spider Monkey Optimization](#-spider-monkey-optimization-smo)
-- [Moth Search Algorithm (MSA)](#-moth-search-algorithm-msa)
-- [Monarch Butterfly Optimization](#-monarch-butterfly-optimization-mbo)
+- Traditionals
+  - [Particle Swarm Optimization](#-particle-swarm-optimization-pso)
+  - [Ant Colony Optimization](#-ant-colony-optimization-aco)
+  - [Artificial Bee Colony](#-artificial-bee-colony-abc)
+- New Additions
+  - [Grey Wolf Optimization](#-grey-wolf-optimization-gwo)
+  - [Whale Optimization Algorithm](#-whale-optimization-algorithm-woa)
+  - [Social Spider Optimization](#-social-spider-optimization-sso)
+  - [Spider Monkey Optimization](#-spider-monkey-optimization-smo)
+  - [Moth Search Algorithm (MSA)](#-moth-search-algorithm-msa)
+  - [Monarch Butterfly Optimization](#-monarch-butterfly-optimization-mbo)
 
 <br><br>
 
