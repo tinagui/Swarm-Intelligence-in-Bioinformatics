@@ -9,7 +9,7 @@
   - [Whale Optimization Algorithm](#-whale-optimization-algorithm-woa)
   - [Social Spider Optimization](#-social-spider-optimization-sso)
   - [Spider Monkey Optimization](#-spider-monkey-optimization-smo)
-  - [Moth Search Algorithm (MSA)](#-moth-search-algorithm-msa)
+  - [Moth Search Algorithm](#-moth-search-algorithm-msa)
   - [Monarch Butterfly Optimization](#-monarch-butterfly-optimization-mbo)
 
 <br><br>
