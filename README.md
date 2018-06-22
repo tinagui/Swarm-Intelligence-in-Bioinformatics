@@ -62,7 +62,22 @@ Algorithm 3: Artificial Bee Colony
 Reference: Grey Wolf Optimizer, Advances in Engineering Software, Volume 69, March 2014, Pages 46-61, DOI: http://dx.doi.org/10.1016/j.advengsoft.2013.12.007 
 ```
 Algorithm 4: Grey Wolf Optimization Algorithm
-
+Initialize the grey wolves population Xi(i = 1; 2; :::; n)
+Initialize a, A and C
+1: Calculate the fitness of each search agent
+2: Xa = the best search agent
+3: Xb = the second best search agent
+4: Xc = the third best search agent
+5: while t < Max number of iterations do
+6:    for each search agent do
+7:      Update the position of the current search agent by Eq. (1)
+8:    end 
+9:    Update a, A, and C
+10:   Calculate the fitness of all search agents
+11:   Update Xa, Xa and Xc
+12:   t = t + 1
+13: end 
+14: return Xa
 ```
 <br><br>
 
